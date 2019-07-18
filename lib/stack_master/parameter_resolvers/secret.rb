@@ -1,14 +1,19 @@
 require 'os'
 
 module StackMaster
+  StackDefinition.class_eval do
+    attr_accessor :secret_file
+  end
+
   module ParameterResolvers
     class Secret < Resolver
       SecretNotFound = Class.new(StandardError)
       PlatformNotSupported = Class.new(StandardError)
 
+
       unless OS.windows?
         require 'dotgpg'
-        array_resolver  
+        array_resolver
       end
 
       def initialize(config, stack_definition)
