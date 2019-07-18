@@ -7,6 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = StackMaster::GpgParameterResolver::VERSION
   spec.authors       = ["Steve Hodgkiss", "Glen Stampoultzis"]
   spec.email         = ["steve@hodgkiss.me", "gstamp@gmail.com"]
+  spec.licenses      = ['MIT']
 
   spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
