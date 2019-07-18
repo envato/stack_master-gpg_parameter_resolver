@@ -33,10 +33,10 @@ RSpec.describe StackMaster::ParameterResolvers::Secret do
 
   context 'the secret file exists' do
     let(:dir) { double(Dotgpg::Dir) }
-    let(:decrypted_file) { <<EOF }
-secret_key_1: secret_value_1
-secret_key_2: secret_value_2
-EOF
+    let(:decrypted_file) { <<~EOF }
+      secret_key_1: secret_value_1
+      secret_key_2: secret_value_2
+    EOF
 
     before do
       allow(File).to receive(:exist?).with(file_path).and_return(true)
