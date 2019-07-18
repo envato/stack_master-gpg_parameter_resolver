@@ -1,1 +1,2 @@
+--require stack_master/gpg_parameter_resolver
 --require spec_helper
