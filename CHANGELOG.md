@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 0.1.0 - 2019-07-19
 ### Added
 
 - Functionality extracted from the StackMaster gem.
+
+[Unreleased]: https://github.com/envato/event_sourcery/compare/v0.1.0...HEAD
