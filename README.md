@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/envato/stack_master-gpg_parameter_resolver.svg?branch=master)](https://travis-ci.org/envato/stack_master-gpg_parameter_resolver)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/stack_master/gpg_parameter_resolver`. To experiment with that code, run `bin/console` for an interactive prompt.
+Resolve [StackMaster] parameters from within GPG encrypted YAML files.
 
-TODO: Delete this and the text above, and describe your gem
+[StackMaster]: https://github.com/envato/stack_master
 
 ## Installation
 
@@ -24,7 +24,33 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The secret parameters resolver expects a `secret_file` to be defined in the
+stack definition which is a GPG encrypted YAML file. Once decrypted and parsed,
+the value provided to the secret resolver is used to lookup the associated key
+in the secret file. A common use case for this is to store database passwords.
+
+stack_master.yml:
+
+```yaml
+stacks:
+  us-east-1:
+    my_app:
+      template: my_app.json
+      secret_file: production.yml.gpg
+```
+
+secrets/production.yml.gpg, when decrypted:
+
+```yaml
+db_password: my-password
+```
+
+parameters/my_app.yml:
+
+```yaml
+db_password:
+  secret: db_password
+```
 
 ## Development
 
