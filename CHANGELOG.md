@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+[Unreleased]: https://github.com/envato/stack_master-gpg_parameter_resolver/compare/v1.0.0...HEAD
+
+## [1.0.0] - 2020-03-04
 
 ### Added
 
@@ -17,7 +20,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Require `stack_master` version 2 or above ([#2]).
 - Remove version restrictions on `rake` ([#3]).
 
-[Unreleased]: https://github.com/envato/stack_master-gpg_parameter_resolver/compare/v0.1.0...HEAD
+[1.0.0]: https://github.com/envato/stack_master-gpg_parameter_resolver/compare/v0.1.0...v1.0.0
 [#1]: https://github.com/envato/stack_master-gpg_parameter_resolver/pull/1
 [#2]: https://github.com/envato/stack_master-gpg_parameter_resolver/pull/2
 [#3]: https://github.com/envato/stack_master-gpg_parameter_resolver/pull/3
