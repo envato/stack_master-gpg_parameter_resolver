@@ -1,6 +1,6 @@
 # StackMaster::GpgParameterResolver
 
-[![Build Status](https://travis-ci.org/envato/stack_master-gpg_parameter_resolver.svg?branch=master)](https://travis-ci.org/envato/stack_master-gpg_parameter_resolver)
+[![Build Status](https://github.com/envato/stack_master-gpg_parameter_resolver/workflows/tests/badge.svg?branch=main)](https://github.com/envato/stack_master-gpg_parameter_resolver/actions?query=branch%3Amain+workflow%3Atests)
 
 Resolve [StackMaster] parameters from within GPG encrypted YAML files.
 

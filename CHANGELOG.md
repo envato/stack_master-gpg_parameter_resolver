@@ -7,7 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Default git branch renamed to `main`.
+- CI build runs on GitHub Actions ([#4]).
+
 [Unreleased]: https://github.com/envato/stack_master-gpg_parameter_resolver/compare/v1.0.0...HEAD
+[#4]: https://github.com/envato/stack_master-gpg_parameter_resolver/pull/4
 
 ## [1.0.0] - 2020-03-04
 
