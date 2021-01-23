@@ -1,5 +1,7 @@
 # StackMaster::GpgParameterResolver
 
+[![License MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/envato/stack_master-gpg_parameter_resolver/blob/main/LICENSE.txt)
+[![Gem Version](https://badge.fury.io/rb/stack_master-gpg_parameter_resolver.svg)](https://rubygems.org/gems/stack_master-gpg_parameter_resolver)
 [![Build Status](https://github.com/envato/stack_master-gpg_parameter_resolver/workflows/tests/badge.svg?branch=main)](https://github.com/envato/stack_master-gpg_parameter_resolver/actions?query=branch%3Amain+workflow%3Atests)
 
 Resolve [StackMaster] parameters from within GPG encrypted YAML files.
